@@ -1,0 +1,23 @@
+/*===========================================================
+* Settings and Styles for the "Form Section of the web-page
+============================================================*/
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
+    background-color: #fff;
+    input {
+        width: 20em;
+        height: 2em;
+        margin-bottom: 1em;
+    }
+}

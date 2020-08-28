@@ -1,0 +1,20 @@
+/*===========================================================
+* Settings and Styles for the "Table Section of the web-page
+============================================================*/
+
+table, td, th {  
+    border: 1px solid #000;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+}
