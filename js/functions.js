@@ -16,11 +16,13 @@ function submit1() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
+        totalTime = document.getElementById('leavingTime').value * document.getElementById('travelTime').value;
+        console.log(totalTime);
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
@@ -53,11 +55,11 @@ function submit2() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
@@ -88,11 +90,11 @@ function submit3() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
@@ -123,11 +125,11 @@ function submit4() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
@@ -158,11 +160,11 @@ function submit5() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
@@ -193,11 +195,11 @@ function submit5() {
         window.location.reload();
     } else if (number.length > 6) { /* Check that Registration is valid, if not then inform online user */
         alert("Invalid Car Registration Number");
-    } else if (miles > 44) { /* Check that Miles is valid, if not then inform online user */
-        alert('"Invalid Miles as these cars maximum distance is "44 miles"');
+    } else if (miles > 250) { /* Check that Miles is valid, if not then inform online user */
+        alert('"Invalid Miles as these cars maximum distance is "250 miles"');
     } else {
         /*=========================== Calculations Area ===============================*/
-        cmiles = 44 - miles; /* Results for Miles Remaining for cars */
+        cmiles = 250 - miles; /* Results for Miles Remaining for cars */
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
