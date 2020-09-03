@@ -9,7 +9,7 @@ function submit1() {
     var number = document.getElementById('rnumber').value;
     var miles = document.getElementById('cmiles').value;
     var leaving = document.getElementById('leavingTime').value;
-
+    
     /*=========================== Data Checking Area =============================*/
     if (document.getElementById('cname').value == "" || document.getElementById('rnumber').value == "" || document.getElementById('cmiles').value == "" || document.getElementById('leavingTime').value == "") {
         alert("Please Fill in All text Fields");
@@ -21,12 +21,10 @@ function submit1() {
     } else {
         /*=========================== Calculations Area ===============================*/
         cmiles = 250 - miles; /* Results for Miles Remaining for cars */
-        totalTime = document.getElementById('leavingTime').value * document.getElementById('travelTime').value;
-        console.log(totalTime);
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car1 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car1 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails1 = JSON.stringify(car1);
         localStorage.setItem('car1', carDetails1);
@@ -63,7 +61,7 @@ function submit2() {
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car2 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car2 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails2 = JSON.stringify(car2);
         localStorage.setItem('car2', carDetails2);
@@ -98,7 +96,7 @@ function submit3() {
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car3 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car3 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails3 = JSON.stringify(car3);
         localStorage.setItem('car3', carDetails3);
@@ -133,7 +131,7 @@ function submit4() {
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car4 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car4 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails4 = JSON.stringify(car4);
         localStorage.setItem('car4', carDetails4);
@@ -168,7 +166,7 @@ function submit5() {
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car5 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car5 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails5 = JSON.stringify(car5);
         localStorage.setItem('car5', carDetails5);
@@ -203,7 +201,7 @@ function submit5() {
         /*=============================================================================*/
 
         /*====================== Stores Variable in Local Storage =====================*/
-        var car6 = [name, number, cmiles + "m", miles + "m", leaving];
+        var car6 = [name, number, miles + "m", cmiles + "m", leaving];
 
         var carDetails6 = JSON.stringify(car6);
         localStorage.setItem('car6', carDetails6);
